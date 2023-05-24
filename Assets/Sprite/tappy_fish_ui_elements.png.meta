@@ -164,7 +164,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground
+      name: Obstacle
       rect:
         serializedVersion: 2
         x: 808
@@ -533,6 +533,7 @@ TextureImporter:
     nameFileIdTable:
       GoldMedal: -1574218063
       MetalMedal: 1958494493
+      Obstacle: -624182527
       SilverMedal: -1067025074
       background: -45643236
       bronzeMedal: -1209944433
@@ -541,7 +542,6 @@ TextureImporter:
       fish_3: 1554087569
       gameOver: -209425978
       getReady: -1959884770
-      ground: -624182527
       ground2: -873451952
       new: 300847679
       restart: -13843064

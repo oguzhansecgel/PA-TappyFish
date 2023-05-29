@@ -9,6 +9,7 @@ public class Fish : MonoBehaviour
     int angle;
     int maxAngle=20;
     int minAngle = -60;
+    public Score score;
     void Start()
     {
         _rb= GetComponent<Rigidbody2D>();
@@ -52,7 +53,7 @@ public class Fish : MonoBehaviour
     {
         if(collision.CompareTag("Obstacle"))
         {
-            Debug.Log("score");
+            score.Scored();
         }
     }
 }
